@@ -1,7 +1,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+/*
+Description:Given a DNA string t corresponding to a coding strand,
+it transcribed RNA string u is formed by replacing all occurrences of 'T' in t with 'U' in u.
+input: string of DNA
+output: string of transcribing RNA
+return values:None
 
+restrictions: lenght of DNA sequence at most 9
+
+
+*/
 char * ft_putstr(char *str)
 {
         char *p_symbol;
@@ -27,6 +37,6 @@ int main(void)
 
 	str1 = (char*)malloc(9 * sizeof(char));
 	scanf("%s", str1);
-	printf("%s", ft_putstr(str1);
+	printf("%s", ft_putstr(str1));
         return 0;
 }
